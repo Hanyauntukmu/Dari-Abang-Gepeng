@@ -17,7 +17,7 @@ function clocks(){
 		// klo goblok ya cuma kamu
 
 		//mun jam 0 peuting nepika jam 10 isuk teh lakukeun ieu
-		if(h>0 && h<=10){
+		if(h>0 && h<=5){
 			//aya deuih anakna si js, ngaranna jquery
 			//si jquery nyokot tag html anu idna body, trs dileungitkeun class malamna... njir meni watir 
 			$('#body').removeClass('malam');
@@ -46,7 +46,7 @@ function clocks(){
 			$('#text').append('Siang');
 			$('#Quote').html('');
 			$('#Quote').append('"Bangun alifah dari alam mimpimu"');
-		}if(h>8 && h<=12){
+		}if(h>8 && h<=14){
 			$('#body').removeClass('pagi');
 			$('#body').addClass('siang');
 			$('#text').html('');
@@ -60,7 +60,7 @@ function clocks(){
 			$('#text').append('Sore');
 			$('#Quote').html('');
 			$('#Quote').append('"Wah sudah Sore ternyata, Mandi gih!"');
-		}if(h>19 && h<=24){
+		}if(h>18 && h<=24){
 			$('#body').removeClass('sore');
 			$('#body').addClass('malam');
 			$('#text').html('');
