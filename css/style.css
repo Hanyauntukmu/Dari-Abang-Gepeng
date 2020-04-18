@@ -13,56 +13,34 @@ body{
 	max-height: 100vh;
 	overflow: hidden;
 }
-body.pagi{
-	animation: gantiPagi 5s linear forwards;
-	background: #A9F99E;
+body.gantiA{
+	background: url(../img/back1.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-body.siang{
-	animation: gantiSiang 5s linear forwards;
-	background:#50d5b7;
+body.gantiB{
+	background: url(../img/back2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-body.sore{
-	animation: gantiSore 5s linear forwards;
-	background:#F6EFA7;
+body.gantiC{
+	background: url(../img/back3.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-body.malam{
-	animation: gantiMalam 5s linear forwards;
-	background:#673ab7;
-}	
-@keyframes gantiPagi{
-	0%{
-	background:#673ab7;
-	}
-	100%{
-	background: #A9F99E;
-	}
-}	
-@keyframes gantiSiang{
-	0%{
-	background: #A9F99E;
-	}
-	100%{
-	background:#50d5b7;
-	}
-}	
-@keyframes gantiSore{
-	0%{
-	background:#50d5b7;
-	}
-	100%{
-	background:#F6EFA7;
-	}
-}	
-@keyframes gantiMalam{
-	0%{
-	background:#F6EFA7;
-	}
-	100%{
-	background:#673ab7;
-	}
+body.gantiD{
+	background: url(../img/back4.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+body.gantiE{
+	background: url(../img/back5.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
 #clock{
-	position: relative;
+	position: absolute;
+	top: 40px;
 	z-index: 1000;
 }
 #clock h2{
